@@ -7,9 +7,9 @@ import firebaseApiData from '../firebaseApiData';
 
 class App extends Component {
   componentWillMount() {
-    console.log(firebaseApiData);
     firebase.initializeApp(firebaseApiData);
   }
+  
   render () {
     return (
       <View>
